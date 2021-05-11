@@ -1,0 +1,143 @@
+body{
+    font-family: 'Bebas Neue', cursive;
+}
+h1{
+    font-size: 80px;
+}
+.link-btn{
+    border-radius: 5px;
+    background-image: linear-gradient(45deg,salmon,tomato);
+    padding:10px 40px;
+    color: white;
+    text-decoration: none;
+    font-weight:500;
+
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.half-width{
+    float: left;
+    width:40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    
+    
+}
+.half-width img{
+    width:100%;
+}
+ul{
+    list-style-type: none;
+    margin-right: 2%;
+    padding-right: 2%;
+    overflow: hidden;
+    text-decoration: none;
+}
+li{
+    float: right;
+}
+li a{
+    display:block;
+    text-decoration: none;
+    padding: 8px;
+    color: black;
+}
+li a:hover{
+    background-color: tomato;
+}
+.name-highlight{
+    color: salmon;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+img{
+    width: 100%;
+}
+.row{
+    margin:0 -5px;
+    justify-content: center;
+    display:flex;
+    padding:2%;
+    
+    
+}
+.row-work{
+    
+    justify-content: center;
+    display: flex;
+    
+}
+.row-bottom{
+    
+    justify-content: center;
+    display: flex;
+    
+}
+.column-work{
+    float: left;
+    width:50%;
+    padding : 0 10px;
+
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+.column{
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 16px;
+    text-align: left;
+    height: 100%;
+    border-radius: 15px;
+    background-color: white;
+    
+}
+.card-work{
+    padding: 16px;
+    text-align: center;
+    height: 100%;
+    margin: 5%;
+}
+.latest-work-pr{
+    background-color: rgba(238, 238, 238, 0.445);
+    padding:25px;
+    
+    
+
+}
+#text-style{
+    text-align: center;
+    
+}
+
+
+.work-inq{
+    background-image:url("images/images/Group_33094_1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding:2%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top:5%;
+}
+#work{
+    color:white;
+    font-size: 45px;
+    font-weight: bold;
+}
+.bottom-style{
+    text-align: center;
+}
